@@ -31,6 +31,9 @@ const AddCourse: FC<IAddCourseProps> = ({fetchCourses }) => {
                 name: values.name,
                 students: parseInt(values.students),
                 type: values.type
+              }).then((result)=>{
+                console.log(result, "result");
+                
               })
             } catch (err) {
               console.log(err);

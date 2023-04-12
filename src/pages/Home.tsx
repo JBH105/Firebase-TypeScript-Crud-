@@ -40,12 +40,12 @@ const Home = () => {
   return (
     <>
       <Flex py="4" bg="purple.800" justify="center" align="center" gap="4">
-        <SiFirebase fontSize="50px" color="white" />{" "}
+        {/* <SiFirebase fontSize="50px" color="white" />{" "} */}
         <Heading
           fontSize={{ base: "xl", sm: "2xl", md: "3xl", lg: "4xl" }}
           color="white"
         >
-          Firebase Basic v9 CRUD Operations
+          Firebase CRUD Operations
         </Heading>
       </Flex>
       <Container maxW="container.lg" mt="8">
